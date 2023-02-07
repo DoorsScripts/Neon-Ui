@@ -1,0 +1,73 @@
+UIStroke_21.Parent = Button15
+UIStroke_21.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_21.Thickness = 1.100
+UIStroke_21.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_20.Parent = Button15
+
+UIAspectRatioConstraint_2.Parent = ScriptsScrollingFrame
+UIAspectRatioConstraint_2.AspectRatio = 1.166
+
+ExitButton.Name = "ExitButton"
+ExitButton.Parent = MainFrame
+ExitButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExitButton.Position = UDim2.new(0.0286023319, 0, 0.0157773793, 0)
+ExitButton.Size = UDim2.new(0, 50, 0, 50)
+ExitButton.Image = "http://www.roblox.com/asset/?id=10711287694"
+ExitButton.MouseButton1Down:connect(function()
+	MainFrame.Visible = false
+	OpenUIFrame.Visible = true
+end)
+
+
+UIStroke_22.Parent = ExitButton
+UIStroke_22.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_22.Thickness = 2.000
+UIStroke_22.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_21.Parent = ExitButton
+
+UIAspectRatioConstraint_3.Parent = MainFrame
+UIAspectRatioConstraint_3.AspectRatio = 1.493
+
+OpenUIFrame.Name = "OpenUIFrame"
+OpenUIFrame.Parent = ScreenGui
+OpenUIFrame.BackgroundColor3 = Color3.fromRGB(255, 222, 189)
+OpenUIFrame.BackgroundTransparency = 1.000
+OpenUIFrame.Position = UDim2.new(0.00931391958, 0, 0.0149432868, 0)
+OpenUIFrame.Size = UDim2.new(0, 172, 0, 54)
+OpenUIFrame.Visible = false
+
+UICorner_22.Parent = OpenUIFrame
+
+UIStroke_23.Parent = OpenUIFrame
+UIStroke_23.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_23.Thickness = 2.000
+UIStroke_23.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+ButtonOpen.Name = "ButtonOpen"
+ButtonOpen.Parent = OpenUIFrame
+ButtonOpen.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+ButtonOpen.BackgroundTransparency = 0.250
+ButtonOpen.Position = UDim2.new(-0.00635852385, 0, -0.0416652523, 0)
+ButtonOpen.Size = UDim2.new(0, 172, 0, 54)
+ButtonOpen.Font = Enum.Font.Cartoon
+ButtonOpen.Text = "Open Hub"
+ButtonOpen.TextColor3 = Color3.fromRGB(255, 255, 0)
+ButtonOpen.TextScaled = true
+ButtonOpen.TextSize = 14.000
+ButtonOpen.TextWrapped = true
+ButtonOpen.MouseButton1Down:connect(function()
+	MainFrame.Visible = true
+	OpenUIFrame.Visible = false
+end)
+
+UICorner_23.Parent = ButtonOpen
+
+UIStroke_24.Parent = ButtonOpen
+UIStroke_24.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_24.Thickness = 2.000
+UIStroke_24.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UIAspectRatioConstraint_4.Parent = OpenUIFrame
+UIAspectRatioConstraint_4.AspectRatio = 3.185
