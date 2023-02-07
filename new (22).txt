@@ -94,4 +94,3 @@ UIStroke.Parent = MainFrame
 UIStroke.Color = Color3.fromRGB(255, 222, 189)
 UIStroke.Thickness = 2.000
 UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-
