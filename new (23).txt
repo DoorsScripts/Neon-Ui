@@ -1,0 +1,29 @@
+UIStroke_15.Parent = Button10
+UIStroke_15.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_15.Thickness = 1.100
+UIStroke_15.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_14.Parent = Button10
+
+--Do not edit this! Seperator is fine how it is! Unless you want to tinker with the text!
+--Don't forget to edit the properties for the button name!
+
+SeperatorInfo1.Name = "SeperatorInfo1"
+SeperatorInfo1.Parent = ScriptsScrollingFrame
+SeperatorInfo1.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+SeperatorInfo1.BackgroundTransparency = 0.800
+SeperatorInfo1.Position = UDim2.new(0.0284974091, 0, 0.858805954, 0)
+SeperatorInfo1.Size = UDim2.new(0, 351, 0, 51)
+SeperatorInfo1.Font = Enum.Font.Cartoon
+SeperatorInfo1.Text = "More Coming soon!"
+SeperatorInfo1.TextColor3 = Color3.fromRGB(255, 222, 189)
+SeperatorInfo1.TextScaled = true
+SeperatorInfo1.TextSize = 14.000
+SeperatorInfo1.TextWrapped = true
+
+UICorner_15.Parent = SeperatorInfo1
+
+UIStroke_16.Parent = SeperatorInfo1
+UIStroke_16.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_16.Thickness = 1.500
+UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
